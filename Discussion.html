@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="discussioncssfile.css">
+</head>
+
+<body>
+    <div class="boss">
+        <h1 id="h1">Discussion portal</h1>
+    </div>
+    <div class="main">
+        <div class="Left">
+            <button id="questionsearch">New Question form</button>
+            <input type="text" id="search" placeholder="search Question ">
+            <br>
+            <br>
+            <div class="Output"></div>
+        </div>
+        <div class="Right">
+            <h1>Welcome to Discussion portal</h1>
+            <H5>Enter a subject and question to get started</H5>
+            <input type="text" id="subject" placeholder="Subject">
+            <br>
+            <br>
+            <textarea id="Question" placeholder="Question"></textarea>
+            <button id="submit"> submit</button>
+        </div>
+
+        <div class="usercomment">
+            <h1>Question </h1>
+            <div class="selectedQuestion"></div>
+            <button id="Resolve">Resolve</button>
+            <H2>Responses</H2>
+            <div class="Response"></div>
+            <h2>Add Reaponse </h2>
+            <input type="text" id="EnterName" placeholder="Enter Name">
+            <textarea id="EnterComment" placeholder="Enter Comment"></textarea>
+            <button id="preSubmit">Submit</button>
+
+        </div>
+    </div>
+    <script src="Discussionjsfile.js"></script>
+
+</body>
+
+</html>
